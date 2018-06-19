@@ -12,6 +12,7 @@ import java.util.Date;
 public class Earthquake implements Serializable
 {
     @PrimaryKey
+    @ColumnInfo(name = "id")
     private int id;
 
     @ColumnInfo(name = "created_at")

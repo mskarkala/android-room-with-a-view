@@ -13,7 +13,7 @@ import retrofit2.http.Query;
 
 import static android.arch.persistence.room.OnConflictStrategy.REPLACE;
 
-@Dao
+@Dao // data access object
 public interface EarthquakeDao
 {
     @Insert(onConflict = REPLACE)
